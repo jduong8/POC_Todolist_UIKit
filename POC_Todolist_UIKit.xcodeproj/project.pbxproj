@@ -9,21 +9,61 @@
 /* Begin PBXBuildFile section */
 		137C3A032B7B5DEA00E3F3E1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 137C3A022B7B5DEA00E3F3E1 /* AppDelegate.swift */; };
 		137C3A052B7B5DEA00E3F3E1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 137C3A042B7B5DEA00E3F3E1 /* SceneDelegate.swift */; };
-		137C3A072B7B5DEA00E3F3E1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 137C3A062B7B5DEA00E3F3E1 /* ViewController.swift */; };
+		137C3A072B7B5DEA00E3F3E1 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 137C3A062B7B5DEA00E3F3E1 /* MainViewController.swift */; };
 		137C3A0A2B7B5DEA00E3F3E1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 137C3A082B7B5DEA00E3F3E1 /* Main.storyboard */; };
 		137C3A0C2B7B5DEB00E3F3E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 137C3A0B2B7B5DEB00E3F3E1 /* Assets.xcassets */; };
 		137C3A0F2B7B5DEB00E3F3E1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 137C3A0D2B7B5DEB00E3F3E1 /* LaunchScreen.storyboard */; };
+		137C3A182B7B65E000E3F3E1 /* Record.swift in Sources */ = {isa = PBXBuildFile; fileRef = 137C3A172B7B65E000E3F3E1 /* Record.swift */; };
+		137C3A1A2B7B6A3A00E3F3E1 /* Field.swift in Sources */ = {isa = PBXBuildFile; fileRef = 137C3A192B7B6A3A00E3F3E1 /* Field.swift */; };
+		137C3A1C2B7B6A6400E3F3E1 /* Records.swift in Sources */ = {isa = PBXBuildFile; fileRef = 137C3A1B2B7B6A6400E3F3E1 /* Records.swift */; };
+		137C3A1F2B7B712200E3F3E1 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 137C3A1E2B7B712200E3F3E1 /* APIManager.swift */; };
+		137C3A212B7B719E00E3F3E1 /* APIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 137C3A202B7B719E00E3F3E1 /* APIError.swift */; };
+		137C3A232B7B71C400E3F3E1 /* HTTPMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 137C3A222B7B71C400E3F3E1 /* HTTPMethod.swift */; };
+		137C3A252B7B71DF00E3F3E1 /* APIConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 137C3A242B7B71DF00E3F3E1 /* APIConstants.swift */; };
+		137C3A282B7B75B500E3F3E1 /* TodoServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 137C3A272B7B75B500E3F3E1 /* TodoServices.swift */; };
+		137C3A392B7B8C8800E3F3E1 /* TaskViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 137C3A382B7B8C8800E3F3E1 /* TaskViewCell.swift */; };
+		137C3A3D2B7B8D6000E3F3E1 /* TasksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 137C3A3C2B7B8D6000E3F3E1 /* TasksView.swift */; };
+		137C3A3F2B7B8D7500E3F3E1 /* TasksPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 137C3A3E2B7B8D7500E3F3E1 /* TasksPresenter.swift */; };
+		137C3A412B7BCF0700E3F3E1 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 137C3A402B7BCF0700E3F3E1 /* DetailViewController.swift */; };
+		137C3A442B7CB55A00E3F3E1 /* DateFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 137C3A432B7CB55A00E3F3E1 /* DateFormatter.swift */; };
+		137C3A462B7CC27E00E3F3E1 /* AddTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 137C3A452B7CC27E00E3F3E1 /* AddTaskViewController.swift */; };
+		137C3A482B7CCCF000E3F3E1 /* AddTaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 137C3A472B7CCCF000E3F3E1 /* AddTaskView.swift */; };
+		137C3A4A2B7CCD7800E3F3E1 /* AddTaskPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 137C3A492B7CCD7800E3F3E1 /* AddTaskPresenter.swift */; };
+		137C3A4C2B7D0F7300E3F3E1 /* DeleteTaskResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 137C3A4B2B7D0F7300E3F3E1 /* DeleteTaskResponse.swift */; };
+		137C3A4E2B7E041100E3F3E1 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 137C3A4D2B7E041100E3F3E1 /* DetailView.swift */; };
+		137C3A502B7E047800E3F3E1 /* TaskDetailPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 137C3A4F2B7E047800E3F3E1 /* TaskDetailPresenter.swift */; };
+		137C3A522B7E188600E3F3E1 /* ViewState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 137C3A512B7E188600E3F3E1 /* ViewState.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		137C39FF2B7B5DEA00E3F3E1 /* POC_Todolist_UIKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = POC_Todolist_UIKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		137C3A022B7B5DEA00E3F3E1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		137C3A042B7B5DEA00E3F3E1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		137C3A062B7B5DEA00E3F3E1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		137C3A062B7B5DEA00E3F3E1 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		137C3A092B7B5DEA00E3F3E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		137C3A0B2B7B5DEB00E3F3E1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		137C3A0E2B7B5DEB00E3F3E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		137C3A102B7B5DEB00E3F3E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		137C3A172B7B65E000E3F3E1 /* Record.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Record.swift; sourceTree = "<group>"; };
+		137C3A192B7B6A3A00E3F3E1 /* Field.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Field.swift; sourceTree = "<group>"; };
+		137C3A1B2B7B6A6400E3F3E1 /* Records.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Records.swift; sourceTree = "<group>"; };
+		137C3A1E2B7B712200E3F3E1 /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		137C3A202B7B719E00E3F3E1 /* APIError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIError.swift; sourceTree = "<group>"; };
+		137C3A222B7B71C400E3F3E1 /* HTTPMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPMethod.swift; sourceTree = "<group>"; };
+		137C3A242B7B71DF00E3F3E1 /* APIConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIConstants.swift; sourceTree = "<group>"; };
+		137C3A272B7B75B500E3F3E1 /* TodoServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoServices.swift; sourceTree = "<group>"; };
+		137C3A382B7B8C8800E3F3E1 /* TaskViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskViewCell.swift; sourceTree = "<group>"; };
+		137C3A3C2B7B8D6000E3F3E1 /* TasksView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasksView.swift; sourceTree = "<group>"; };
+		137C3A3E2B7B8D7500E3F3E1 /* TasksPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasksPresenter.swift; sourceTree = "<group>"; };
+		137C3A402B7BCF0700E3F3E1 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		137C3A432B7CB55A00E3F3E1 /* DateFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateFormatter.swift; sourceTree = "<group>"; };
+		137C3A452B7CC27E00E3F3E1 /* AddTaskViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTaskViewController.swift; sourceTree = "<group>"; };
+		137C3A472B7CCCF000E3F3E1 /* AddTaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTaskView.swift; sourceTree = "<group>"; };
+		137C3A492B7CCD7800E3F3E1 /* AddTaskPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTaskPresenter.swift; sourceTree = "<group>"; };
+		137C3A4B2B7D0F7300E3F3E1 /* DeleteTaskResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeleteTaskResponse.swift; sourceTree = "<group>"; };
+		137C3A4D2B7E041100E3F3E1 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		137C3A4F2B7E047800E3F3E1 /* TaskDetailPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskDetailPresenter.swift; sourceTree = "<group>"; };
+		137C3A512B7E188600E3F3E1 /* ViewState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewState.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +96,115 @@
 		137C3A012B7B5DEA00E3F3E1 /* POC_Todolist_UIKit */ = {
 			isa = PBXGroup;
 			children = (
-				137C3A022B7B5DEA00E3F3E1 /* AppDelegate.swift */,
-				137C3A042B7B5DEA00E3F3E1 /* SceneDelegate.swift */,
-				137C3A062B7B5DEA00E3F3E1 /* ViewController.swift */,
-				137C3A082B7B5DEA00E3F3E1 /* Main.storyboard */,
+				137C3A422B7CB54B00E3F3E1 /* Utils */,
+				137C3A342B7B8BEA00E3F3E1 /* App */,
+				137C3A1D2B7B70DE00E3F3E1 /* API */,
+				137C3A162B7B60C100E3F3E1 /* Model */,
+				137C3A352B7B8C1100E3F3E1 /* View */,
+				137C3A3A2B7B8D4F00E3F3E1 /* Presenter */,
+				137C3A362B7B8C2000E3F3E1 /* Storyboards */,
 				137C3A0B2B7B5DEB00E3F3E1 /* Assets.xcassets */,
-				137C3A0D2B7B5DEB00E3F3E1 /* LaunchScreen.storyboard */,
 				137C3A102B7B5DEB00E3F3E1 /* Info.plist */,
 			);
 			path = POC_Todolist_UIKit;
+			sourceTree = "<group>";
+		};
+		137C3A162B7B60C100E3F3E1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				137C3A172B7B65E000E3F3E1 /* Record.swift */,
+				137C3A192B7B6A3A00E3F3E1 /* Field.swift */,
+				137C3A1B2B7B6A6400E3F3E1 /* Records.swift */,
+				137C3A4B2B7D0F7300E3F3E1 /* DeleteTaskResponse.swift */,
+				137C3A512B7E188600E3F3E1 /* ViewState.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		137C3A1D2B7B70DE00E3F3E1 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				137C3A262B7B757200E3F3E1 /* Service */,
+				137C3A1E2B7B712200E3F3E1 /* APIManager.swift */,
+				137C3A202B7B719E00E3F3E1 /* APIError.swift */,
+				137C3A222B7B71C400E3F3E1 /* HTTPMethod.swift */,
+				137C3A242B7B71DF00E3F3E1 /* APIConstants.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		137C3A262B7B757200E3F3E1 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				137C3A272B7B75B500E3F3E1 /* TodoServices.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		137C3A342B7B8BEA00E3F3E1 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				137C3A022B7B5DEA00E3F3E1 /* AppDelegate.swift */,
+				137C3A042B7B5DEA00E3F3E1 /* SceneDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		137C3A352B7B8C1100E3F3E1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				137C3A372B7B8C5C00E3F3E1 /* Classes */,
+				137C3A062B7B5DEA00E3F3E1 /* MainViewController.swift */,
+				137C3A402B7BCF0700E3F3E1 /* DetailViewController.swift */,
+				137C3A452B7CC27E00E3F3E1 /* AddTaskViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		137C3A362B7B8C2000E3F3E1 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				137C3A082B7B5DEA00E3F3E1 /* Main.storyboard */,
+				137C3A0D2B7B5DEB00E3F3E1 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		137C3A372B7B8C5C00E3F3E1 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				137C3A382B7B8C8800E3F3E1 /* TaskViewCell.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		137C3A3A2B7B8D4F00E3F3E1 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				137C3A3B2B7B8D5800E3F3E1 /* Protocol */,
+				137C3A3E2B7B8D7500E3F3E1 /* TasksPresenter.swift */,
+				137C3A492B7CCD7800E3F3E1 /* AddTaskPresenter.swift */,
+				137C3A4F2B7E047800E3F3E1 /* TaskDetailPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		137C3A3B2B7B8D5800E3F3E1 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				137C3A3C2B7B8D6000E3F3E1 /* TasksView.swift */,
+				137C3A472B7CCCF000E3F3E1 /* AddTaskView.swift */,
+				137C3A4D2B7E041100E3F3E1 /* DetailView.swift */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		137C3A422B7CB54B00E3F3E1 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				137C3A432B7CB55A00E3F3E1 /* DateFormatter.swift */,
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,9 +278,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				137C3A072B7B5DEA00E3F3E1 /* ViewController.swift in Sources */,
+				137C3A1C2B7B6A6400E3F3E1 /* Records.swift in Sources */,
+				137C3A3D2B7B8D6000E3F3E1 /* TasksView.swift in Sources */,
+				137C3A1A2B7B6A3A00E3F3E1 /* Field.swift in Sources */,
+				137C3A482B7CCCF000E3F3E1 /* AddTaskView.swift in Sources */,
+				137C3A072B7B5DEA00E3F3E1 /* MainViewController.swift in Sources */,
 				137C3A032B7B5DEA00E3F3E1 /* AppDelegate.swift in Sources */,
+				137C3A282B7B75B500E3F3E1 /* TodoServices.swift in Sources */,
+				137C3A182B7B65E000E3F3E1 /* Record.swift in Sources */,
+				137C3A522B7E188600E3F3E1 /* ViewState.swift in Sources */,
+				137C3A502B7E047800E3F3E1 /* TaskDetailPresenter.swift in Sources */,
+				137C3A3F2B7B8D7500E3F3E1 /* TasksPresenter.swift in Sources */,
+				137C3A232B7B71C400E3F3E1 /* HTTPMethod.swift in Sources */,
+				137C3A4E2B7E041100E3F3E1 /* DetailView.swift in Sources */,
+				137C3A392B7B8C8800E3F3E1 /* TaskViewCell.swift in Sources */,
+				137C3A4A2B7CCD7800E3F3E1 /* AddTaskPresenter.swift in Sources */,
+				137C3A4C2B7D0F7300E3F3E1 /* DeleteTaskResponse.swift in Sources */,
+				137C3A252B7B71DF00E3F3E1 /* APIConstants.swift in Sources */,
+				137C3A212B7B719E00E3F3E1 /* APIError.swift in Sources */,
+				137C3A462B7CC27E00E3F3E1 /* AddTaskViewController.swift in Sources */,
+				137C3A442B7CB55A00E3F3E1 /* DateFormatter.swift in Sources */,
+				137C3A412B7BCF0700E3F3E1 /* DetailViewController.swift in Sources */,
 				137C3A052B7B5DEA00E3F3E1 /* SceneDelegate.swift in Sources */,
+				137C3A1F2B7B712200E3F3E1 /* APIManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -218,7 +378,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -275,7 +435,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
